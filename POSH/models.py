@@ -7,8 +7,10 @@ from pydantic import BaseModel, Field
 class AudioScript(BaseModel):
     """Audio script for a scene"""
     dialogue: str = Field(description="Spoken dialogue for the scene")
-    sound_effects: Optional[str] = Field(default=None, description="Background sound effects")
-    tone: str = Field(default="professional", description="Tone of voice (professional, conversational, etc.)")
+    sound_effects: Optional[str] = Field(default=None, description="Background sound effects with volume levels")
+    tone: str = Field(default="professional", description="Tone of voice with emotional characteristics and delivery details")
+    background_narration: Optional[str] = Field(default=None, description="Optional contextual voice-over or educational narration")
+    audio_transitions: Optional[str] = Field(default=None, description="How audio connects to previous/next scenes")
 
 class Scene(BaseModel):
     """Individual scene in a POSH scenario"""
@@ -18,6 +20,7 @@ class Scene(BaseModel):
     duration_seconds: int = Field(default=8, description="Duration of the scene")
     setting: str = Field(description="Location/setting of the scene")
     characters: List[str] = Field(description="Characters present in the scene")
+    continuity_notes: Optional[str] = Field(default=None, description="How this scene connects to previous/next scenes")
 
 class POSHScenario(BaseModel):
     """Complete POSH scenario broken down into scenes"""

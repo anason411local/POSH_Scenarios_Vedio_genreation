@@ -25,7 +25,7 @@ class VideoGenerator:
     
     def _create_video_prompt(self, scene: Scene) -> str:
         """
-        Create optimized prompt for Veo 3.0 video generation
+        Create optimized prompt for Veo 3.0 video generation with Indian cultural context
         
         Args:
             scene: Scene object with visual and audio information
@@ -33,31 +33,132 @@ class VideoGenerator:
         Returns:
             str: Formatted prompt for video generation
         """
-        # Base visual description
+        # Base visual description with Indian context emphasis
         visual_prompt = scene.visual_description
         
-        # Add character and setting context
-        setting_context = f"Setting: {scene.setting}."
-        character_context = f"Characters: {', '.join(scene.characters)}." if scene.characters else ""
+        # Add Indian workplace setting context
+        setting_context = f"Indian workplace setting: {scene.setting}."
+        character_context = f"Indian characters: {', '.join(scene.characters)}." if scene.characters else ""
         
-        # Add audio/dialogue context
-        dialogue_context = f"Audio dialogue: '{scene.audio_script.dialogue}'"
-        tone_context = f"Tone: {scene.audio_script.tone}"
+        # Enhanced audio context with emotional depth
+        dialogue_context = f"Primary dialogue: '{scene.audio_script.dialogue}'"
+        tone_context = f"Emotional tone and delivery: {scene.audio_script.tone}"
         
-        # Add POSH-specific context for appropriate workplace behavior
-        posh_context = "Professional workplace environment, appropriate business attire, respectful interactions."
+        # Background audio context with volume specifications
+        sound_effects_context = ""
+        if scene.audio_script.sound_effects:
+            sound_effects_context = f"Layered background audio: {scene.audio_script.sound_effects}"
         
-        # Combine all elements
+        # Background narration context
+        narration_context = ""
+        if scene.audio_script.background_narration:
+            narration_context = f"Voice-over narration: '{scene.audio_script.background_narration}'"
+        
+        # Audio transitions for continuity
+        audio_transitions_context = ""
+        if scene.audio_script.audio_transitions:
+            audio_transitions_context = f"Audio continuity: {scene.audio_script.audio_transitions}"
+        
+        # Visual continuity context
+        continuity_context = ""
+        if scene.continuity_notes:
+            continuity_context = f"Scene continuity requirements: {scene.continuity_notes}"
+        
+        # Indian cultural context for appropriate workplace behavior
+        indian_context = """
+INDIAN CULTURAL CONTEXT:
+- Authentic Indian office environment with typical Indian corporate settings
+- Characters with realistic Indian appearances, diverse regional backgrounds
+- Traditional Indian business attire mixed with modern corporate wear
+- Natural Indian workplace dynamics, hierarchies, and communication styles
+- Realistic Indian office interiors: modern furniture, typical lighting, Indian corporate aesthetics
+- Authentic body language and gestures common in Indian professional interactions
+"""
+        
+        # Enhanced audio requirements with specific volume mixing
+        audio_requirements = """
+ENHANCED AUDIO REQUIREMENTS:
+- DIALOGUE QUALITY: Crystal clear conversational dialogue with natural Indian English pronunciation
+  * Include realistic speech patterns: breathing, natural pauses, speech rhythms
+  * Add authentic Indian English accent variations and regional pronunciations
+  * Incorporate emotional voice characteristics as specified in tone requirements
+  * Include natural conversation elements: hesitations, interruptions, overlapping speech
+
+- LAYERED BACKGROUND AUDIO with precise volume mixing:
+  * Primary dialogue: 100% volume (always clear and prominent)
+  * Office ambience base layer: 15-25% volume (continuous, subtle atmosphere)
+  * Specific action sounds: 30-45% volume (keyboard typing, paper rustling, footsteps)
+  * Environmental sounds: 10-20% volume (air conditioning, distant conversations)
+  * Transitional sounds: 25-35% volume (door opening, phone rings, chair movement)
+
+- ADVANCED CONVERSATIONAL AUDIO:
+  * Include non-verbal sounds: sighs, throat clearing, nervous laughter, pen clicking
+  * Add realistic interruptions and natural conversation flow
+  * Specify breathing patterns and emotional vocal responses
+  * Include contextual sound reactions (chair creaking when someone shifts uncomfortably)
+
+- AUDIO CONTINUITY BETWEEN SCENES:
+  * Maintain consistent ambient sound levels across scenes
+  * Use audio bridges for smooth transitions (continuing conversations, ongoing background sounds)
+  * Include realistic audio perspective changes (closer/farther, different room acoustics)
+  * Ensure background sounds flow naturally from scene to scene
+"""
+        
+        # Enhanced visual requirements with continuity focus
+        visual_requirements = """
+VISUAL CONTINUITY & REALISM REQUIREMENTS:
+- SCENE CONTINUITY: Maintain consistent visual elements across scenes
+  * Character clothing, hairstyles, and accessories must remain identical throughout
+  * Consistent lighting conditions and camera angles for visual flow
+  * Logical character positioning and movement progression between scenes
+  * Environmental consistency (desk arrangements, background elements, time of day)
+
+- MAXIMUM REALISM: Organic, natural character movements and expressions
+  * Authentic Indian faces with diverse regional features and natural skin tones
+  * Realistic office lighting and professional cinematic camera work
+  * Natural, unforced interactions between characters with authentic body language
+  * Authentic Indian workplace clothing and professional styling
+
+- VISUAL STORYTELLING: Professional video quality with seamless narrative flow
+  * Smooth visual transitions that support story progression
+  * Consistent visual style and composition throughout all scenes
+  * Natural character reactions and emotional expressions matching the audio tone
+"""
+        
+        # Combine all elements with enhanced continuity focus
         full_prompt = f"""
 {visual_prompt}
 
 {setting_context} {character_context}
 
-{dialogue_context} spoken in a {tone_context} manner.
+{dialogue_context} delivered with {tone_context}.
 
-{posh_context}
+{sound_effects_context}
 
-High quality, realistic, professional workplace scenario for educational training purposes. 8-second duration, 720p resolution.
+{narration_context}
+
+{audio_transitions_context}
+
+{continuity_context}
+
+{indian_context.strip()}
+
+{audio_requirements.strip()}
+
+{visual_requirements.strip()}
+
+CRITICAL CONTINUITY REQUIREMENTS:
+- This scene MUST maintain visual and audio continuity with adjacent scenes
+- Character appearances, clothing, and environmental details must be consistent
+- Audio levels and ambient sounds should transition smoothly from previous scenes
+- Ensure natural story progression and logical scene flow
+
+FINAL SPECIFICATIONS:
+- 8-second duration, 720p resolution, professional quality
+- Educational POSH training content for Indian workplace context
+- Maximum authenticity, realism, and seamless continuity in all aspects
+- Natural, organic character interactions with realistic workplace scenario
+- Enhanced audio mixing with specified volume levels and layered soundscape
 """.strip()
         
         return full_prompt
