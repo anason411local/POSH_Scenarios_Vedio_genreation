@@ -1,0 +1,76 @@
+POSH Training Scenario: Addressing Workplace Harassment: Sarah's Story
+============================================================
+
+Description: This scenario demonstrates the impact of workplace harassment, the importance of documentation, and the proper escalation process.
+
+Learning Objectives:
+  1. Identify inappropriate workplace behavior.
+  2. Understand the importance of documenting harassment incidents.
+  3. Learn how to appropriately report and escalate harassment concerns.
+
+Generated Videos (7/8 scenes):
+----------------------------------------
+
+Scene 1: Conference Room
+File: temp_scenes\Addressing Workplace Harassment Sarahs Story_scene_01.mp4
+Characters: Sarah, John, Team Members
+Dialogue: John: "Nice dress, Sarah.  Did your boyfriend pick it out?"
+Visual: Close-up on Sarah's face, showing discomfort as John makes a comment about her outfit during a team meeting. Other team members are present but remain silent.
+Generation Time: 94.3 seconds
+
+------------------------------
+
+Scene 2: Sarah's Desk
+File: temp_scenes\Addressing Workplace Harassment Sarahs Story_scene_02.mp4
+Characters: Sarah
+Dialogue: (Sarah's internal monologue) "October 26th, John commented on my dress, 'Nice dress, did your boyfriend pick it out?'"
+Visual: Sarah writing in her notebook immediately after the meeting, documenting the time, date, and John's exact words.
+Generation Time: 81.6 seconds
+
+------------------------------
+
+Scene 3: Sarah's Desk
+File: temp_scenes\Addressing Workplace Harassment Sarahs Story_scene_03.mp4
+Characters: Sarah
+Dialogue: (Sarah's internal monologue) "Time to report this. I can't let this continue."
+Visual: Sarah scheduling a meeting with HR on her computer.
+Generation Time: 90.0 seconds
+
+------------------------------
+
+Scene 4: HR Office
+File: temp_scenes\Addressing Workplace Harassment Sarahs Story_scene_04.mp4
+Characters: Sarah, HR Representative
+Dialogue: Sarah: "I've been documenting John's comments.  This has made me uncomfortable."
+Visual: Sarah meeting with HR representative in a private office.  Sarah is explaining the situation calmly and providing her notes.
+Generation Time: 81.1 seconds
+
+------------------------------
+
+Scene 5: HR Office
+File: temp_scenes\Addressing Workplace Harassment Sarahs Story_scene_05.mp4
+Characters: Sarah, HR Representative
+Dialogue: HR Rep: "Thank you for coming forward. We will investigate this immediately."
+Visual: HR representative assuring Sarah and explaining the next steps of the investigation.
+Generation Time: 70.7 seconds
+
+------------------------------
+
+Scene 6: HR Office and Conference Room
+File: temp_scenes\Addressing Workplace Harassment Sarahs Story_scene_06.mp4
+Characters: John, HR Representative, Team Members
+Dialogue: Narrator: "John received disciplinary action. The team participated in additional POSH training."
+Visual: Montage of John being questioned by HR, then a team meeting where the company's POSH policy is being reviewed.
+Generation Time: 78.3 seconds
+
+------------------------------
+
+Scene 8: Office Workspace
+File: temp_scenes\Addressing Workplace Harassment Sarahs Story_scene_08.mp4
+Characters: Sarah, Team Members
+Dialogue: Narrator: "A safe and respectful workplace is everyone's responsibility."
+Visual: Sarah feeling empowered and confident at work, working collaboratively with her team.
+Generation Time: 81.2 seconds
+
+------------------------------
+
