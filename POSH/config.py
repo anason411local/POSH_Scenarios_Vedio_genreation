@@ -17,7 +17,7 @@ class Config:
     VIDEO_RESOLUTION = "720p"
     
     # Model Configuration
-    SCENARIO_MODEL = "gemini-1.5-flash"  # For breaking down scenarios
+    SCENARIO_MODEL = "gemini-2.0-flash-lite"  # For breaking down scenarios
     VIDEO_MODEL = "veo-3.0-generate-001"    # For video generation
     
     # Output Configuration

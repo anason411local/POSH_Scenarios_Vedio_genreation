@@ -1,0 +1,31 @@
+POSH Training Scenario: Unwelcome Advice: A POSH Scenario
+============================================================
+
+Description: A new marketing team member receives inappropriate advice about her career advancement.
+
+Learning Objectives:
+  1. Recognize subtle forms of sexual harassment.
+  2. Understand the impact of unwelcome comments on an individual.
+  3. Identify appropriate responses to inappropriate workplace behavior.
+
+Generated Videos (2/9 scenes):
+----------------------------------------
+
+Scene 1: Modern Marketing Department
+File: temp_scenes\Unwelcome Advice A POSH Scenario_scene_01.mp4
+Characters: Priya, Ramesh
+Dialogue: Ramesh: Hey Priya, how's the new project coming along?
+Visual: INT. MARKETING DEPARTMENT - DAY. A modern office. PRIYA, a young woman in a professional outfit, is at her desk, smiling and working on her laptop. RAMESH, a male colleague, approaches her desk with a friendly smile. Overhead view of the office.
+Generation Time: 72.1 seconds
+
+------------------------------
+
+Scene 2: Marketing Department
+File: temp_scenes\Unwelcome Advice A POSH Scenario_scene_02.mp4
+Characters: Priya, Ramesh
+Dialogue: Priya: Great, thanks Ramesh! It's exciting.
+Visual: CLOSE UP on Priya. She looks up, smiles, and nods.
+Generation Time: 72.0 seconds
+
+------------------------------
+

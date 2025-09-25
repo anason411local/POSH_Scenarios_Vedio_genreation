@@ -54,6 +54,14 @@ GEMINI_API_KEY=your_api_key_here
 
 ### 3. Run the Application
 
+#### Option A: Web Interface (Recommended)
+```bash
+# Launch beautiful Streamlit web interface
+python run_streamlit.py
+# OR double-click run_streamlit.bat (Windows)
+```
+
+#### Option B: Command Line Interface
 ```bash
 python main.py
 ```
@@ -112,8 +120,28 @@ POSH/
 1. **Scenario Processing**: User input → structured scenes with Gemini 2.5 Flash
 2. **Scene Validation**: Ensure 8-second duration and educational content
 3. **Video Generation**: Each scene → Veo 3.0 → 8-second video with audio
-4. **Video Combination**: All scenes → final video with intro/outro
-5. **Output**: Professional POSH training video ready for use
+4. **Individual Review**: Each 8-second video saved separately for review
+5. **Output**: Professional POSH training videos ready for use
+
+## 🌐 Streamlit Web Interface Features
+
+### **Beautiful User Experience**
+- Clean, modern web interface
+- Real-time progress tracking
+- Interactive scenario input with examples
+- Visual scene breakdown display
+
+### **Three-Step Workflow**
+1. **📝 Scenario Input**: Paste or select example scenarios
+2. **📋 Scene Showcase**: View AI-generated scene breakdown
+3. **🎬 Video Display**: Watch generated videos directly in browser
+
+### **Advanced Features**
+- Pre-loaded example scenarios
+- Scene-by-scene video playback
+- Download links for all videos
+- Progress bars and status updates
+- Responsive design for all devices
 
 ## 📊 Output Features
 
