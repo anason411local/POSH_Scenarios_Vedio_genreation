@@ -13,7 +13,7 @@ class Config:
     
     # Video Generation Settings
     VIDEO_DURATION_SECONDS = 8
-    TARGET_TOTAL_DURATION = (60, 90)  # Min and max duration in seconds
+    TARGET_TOTAL_DURATION = (56, 64)  # Min and max duration in seconds (7-8 scenes)
     VIDEO_RESOLUTION = "720p"
     
     # Model Configuration
@@ -25,8 +25,11 @@ class Config:
     TEMP_DIR = "temp_scenes"
     
     # Scene Configuration
-    MIN_SCENES = TARGET_TOTAL_DURATION[0] // VIDEO_DURATION_SECONDS  # ~7-8 scenes
-    MAX_SCENES = TARGET_TOTAL_DURATION[1] // VIDEO_DURATION_SECONDS  # ~11-12 scenes
+    MIN_SCENES = TARGET_TOTAL_DURATION[0] // VIDEO_DURATION_SECONDS  # 7 scenes minimum
+    MAX_SCENES = min(8, TARGET_TOTAL_DURATION[1] // VIDEO_DURATION_SECONDS)  # 8 scenes maximum (hard limit)
+    
+    # Content Policy Configuration
+    ENABLE_FALLBACK_PROMPTS = True  # Enable fallback prompts for sensitive content
     
     @classmethod
     def validate(cls):

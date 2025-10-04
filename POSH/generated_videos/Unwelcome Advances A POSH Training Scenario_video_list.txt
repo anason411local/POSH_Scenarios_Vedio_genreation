@@ -1,0 +1,104 @@
+POSH Training Scenario: Unwelcome Advances: A POSH Training Scenario
+============================================================
+
+Description: This scenario depicts a situation where a senior team member makes inappropriate comments towards a junior HR executive, highlighting the importance of recognizing and addressing sexual harassment in the Indian workplace.
+
+Learning Objectives:
+  1. Recognize behaviors that constitute sexual harassment in the Indian context.
+  2. Understand the impact of such behaviors on the recipient.
+  3. Know how to respond to and report incidents of sexual harassment.
+  4. Understand the importance of maintaining professional boundaries.
+
+Generated Videos (10/11 scenes):
+----------------------------------------
+
+Scene 1: Modern corporate office in Mumbai.
+File: temp_scenes\Unwelcome Advances A POSH Training Scenario_scene_01.mp4
+Characters: Ritu Sharma, HR Executive, responsible and empathetic, Rohit Kapoor, Senior Team Member, outwardly charming, but inappropriate
+Dialogue: Ritu: ...so, as per the new guidelines, the leave policy changes will be implemented starting next quarter...
+Visual: INT. MODERN OFFICE CONFERENCE ROOM - DAY. RITU (30s, HR Executive, wearing a formal salwar kameez, professional and composed) and ROHIT (40s, Senior Team Member, wearing a crisp shirt and trousers, confident demeanor) are seated across a large conference table. Sunlight streams in through large windows. Documents and a laptop are visible. Ritu is explaining a new company policy.
+Generation Time: 72.2 seconds
+
+------------------------------
+
+Scene 2: Conference room.
+File: temp_scenes\Unwelcome Advances A POSH Training Scenario_scene_02.mp4
+Characters: Rohit Kapoor
+Dialogue: Rohit (with a charming smile): You know, Ritu, you're so beautiful, I get distracted when you talk. Can you repeat the question, please?
+Visual: CLOSE UP - ROHIT. Rohit smiles warmly at Ritu, interrupting her. His expression is friendly, but subtly suggestive. He leans forward slightly.
+Generation Time: 82.5 seconds
+
+------------------------------
+
+Scene 3: Conference room.
+File: temp_scenes\Unwelcome Advances A POSH Training Scenario_scene_03.mp4
+Characters: Ritu Sharma
+Dialogue: Ritu (clears throat, trying to regain composure): Certainly. The question was regarding the… (pauses momentarily)
+Visual: RITU'S REACTION. Ritu's face registers surprise, then discomfort. She briefly glances down at her notes, then looks back at Rohit, trying to maintain her composure.
+Generation Time: 83.6 seconds
+
+------------------------------
+
+Scene 4: Ritu's private office.
+File: temp_scenes\Unwelcome Advances A POSH Training Scenario_scene_04.mp4
+Characters: Ritu Sharma
+Dialogue: Ritu (on phone): Yes, Mr. Verma, I've reviewed the document. I'll forward it to you by end of the day. Thank you. (Hangs up phone)
+Visual: CUT TO: A WEEK LATER. Ritu is in her office, talking on the phone, looking professional. The office is modern, with photographs of colleagues and events. She is in a focused mood.
+Generation Time: 72.3 seconds
+
+------------------------------
+
+Scene 5: Ritu's Office.
+File: temp_scenes\Unwelcome Advances A POSH Training Scenario_scene_05.mp4
+Characters: Ritu Sharma, Rohit Kapoor
+Dialogue: Rohit (smirking): Hey Ritu. How's it going?
+Visual: Rohit enters Ritu’s office. He leans against her door frame, smiling, making himself comfortable.
+Generation Time: 71.9 seconds
+
+------------------------------
+
+Scene 6: Ritu's Office.
+File: temp_scenes\Unwelcome Advances A POSH Training Scenario_scene_06.mp4
+Characters: Ritu Sharma
+Dialogue: Ritu: Rohit, what brings you here?
+Visual: Ritu looks surprised and uncomfortable to see Rohit at her office. She subtly straightens her posture.
+Generation Time: 81.1 seconds
+
+------------------------------
+
+Scene 7: Ritu's Office.
+File: temp_scenes\Unwelcome Advances A POSH Training Scenario_scene_07.mp4
+Characters: Rohit Kapoor
+Dialogue: Rohit (softly): I really like you and would love to be with you. You’re mine.
+Visual: Rohit steps closer to Ritu. His smile fades into a more intense look.
+Generation Time: 94.2 seconds
+
+------------------------------
+
+Scene 8: Ritu's Office.
+File: temp_scenes\Unwelcome Advances A POSH Training Scenario_scene_08.mp4
+Characters: Ritu Sharma
+Dialogue: (Silence, Ritu’s silent reaction)
+Visual: RITU'S REACTION. Close-up on Ritu's face. Her expression shows shock and fear. She takes a step back, her face frozen.
+Generation Time: 72.3 seconds
+
+------------------------------
+
+Scene 9: Neutral background.
+File: temp_scenes\Unwelcome Advances A POSH Training Scenario_scene_09.mp4
+Characters: 
+Dialogue: (None, Text on Screen)
+Visual: A TEXT SCREEN. Text appears on screen: 'WHAT TO DO? If you experience unwanted advances: 1. Say NO clearly. 2. Document the incidents. 3. Report to the Internal Complaints Committee (ICC).'
+Generation Time: 70.7 seconds
+
+------------------------------
+
+Scene 10: Neutral background
+File: temp_scenes\Unwelcome Advances A POSH Training Scenario_scene_10.mp4
+Characters: 
+Dialogue: (None)
+Visual: The company logo appears prominently on screen.
+Generation Time: 83.3 seconds
+
+------------------------------
+

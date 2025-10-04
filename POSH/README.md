@@ -5,13 +5,16 @@ A comprehensive system for generating educational POSH (Prevention of Sexual Har
 ## 🎯 Features
 
 - **Multi-Step Video Generation**: Breaks down scenarios into 8-second scenes for 60-90 second training videos
+- **🆕 Custom Scene Generation**: Create targeted single scenes with full control over dialogue, visuals, and system instructions
 - **AI-Powered Scene Creation**: Uses Gemini 2.5 Flash to intelligently structure scenarios
 - **Professional Video Output**: Generates high-quality 720p videos with audio using Veo 3.0
 - **Automated Workflow**: LangGraph orchestrates the entire process from input to final video
 - **Educational Focus**: Specifically designed for workplace harassment prevention training
+- **Two Generation Modes**: Choose between automatic full scenarios or custom single scenes
 
 ## 🏗️ System Architecture
 
+### Automatic Mode (Original)
 ```
 User Scenario Input
         ↓
@@ -24,6 +27,20 @@ User Scenario Input
 [Video Combiner] → Merge scenes into final 60-90s video
         ↓
 Final POSH Training Video
+```
+
+### Custom Scene Mode (NEW!)
+```
+User Custom Scene Input
+(Dialogue + Visuals + System Instructions)
+        ↓
+[Custom Scene Builder] → Create Scene object
+        ↓
+[Enhanced Prompt Generator] → Include system instructions
+        ↓
+[Veo 3.0] → Generate single targeted video
+        ↓
+Custom POSH Training Scene
 ```
 
 ## 📋 Requirements
